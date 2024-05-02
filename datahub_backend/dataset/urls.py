@@ -1,4 +1,5 @@
-from django.conf.urls import patterns, include, url, path
+from django.urls import include, path
+
 from rest_framework import routers
 
 from datahub_backend.dataset import views

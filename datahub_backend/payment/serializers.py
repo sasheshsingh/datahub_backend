@@ -1,5 +1,5 @@
 from datahub_backend.payment.models import Subscription, Transaction
-from datahub_backend.users.api import serializers
+from rest_framework import serializers
 
 
 class SubscriptionSerializer(serializers.ModelSerializer):
